@@ -12,6 +12,7 @@ RUN npm run build
 
 
 FROM nginx 
+EXPOSE 80
 # Copy from our container /app directory(build files are generated under /build) to the nginx default path
 COPY --from=builder /app/build /usr/share/nginx/html
 # Default command from nginx starts the nginx server , we dont have to manually start
