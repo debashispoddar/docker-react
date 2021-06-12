@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Debashis made changes in App js file DCP on  12-JUN-2021
+          Now I will commit code in a feature branch instead of master
         </p>
         <a
           className="App-link"
